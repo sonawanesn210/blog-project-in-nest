@@ -1,0 +1,36 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "interfaces": {
+      "type": "library",
+      "root": "libs/interfaces",
+      "entryFile": "index",
+      "sourceRoot": "libs/interfaces/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/interfaces/tsconfig.lib.json"
+      }
+    },
+    "dtos": {
+      "type": "library",
+      "root": "libs/dtos",
+      "entryFile": "index",
+      "sourceRoot": "libs/dtos/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/dtos/tsconfig.lib.json"
+      }
+    },
+    "global-reponse": {
+      "type": "library",
+      "root": "libs/global-reponse",
+      "entryFile": "index",
+      "sourceRoot": "libs/global-reponse/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/global-reponse/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}

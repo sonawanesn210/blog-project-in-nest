@@ -1,0 +1,14 @@
+DTOs (Data Transfer Objects):
+
+Purpose:
+
+DTOs are used for transferring data between different layers or modules of an application, particularly in distributed systems or when communicating between frontend and backend.
+Use Case:
+
+When interacting with APIs or services, DTOs encapsulate data being transferred, typically representing requests, responses, or payloads. For instance, a CreateUserDto might contain fields for username, email, and password, representing data sent when creating a new user.
+Validation and Sanitization:
+
+DTOs often include validation and sanitization logic to ensure that the data being transferred meets certain requirements or constraints. For example, a CreateUserDto might include validation rules to ensure that the email is in a valid format and that the password meets minimum length requirements.
+Difference from Interface:
+
+DTOs focus on data transfer and may contain validation logic or additional methods for processing data. Unlike interfaces, they are specifically designed for transferring data between different parts of an application or between different applications in a distributed system.

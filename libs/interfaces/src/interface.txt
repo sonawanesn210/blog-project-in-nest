@@ -1,0 +1,11 @@
+Interfaces:
+
+Purpose:
+
+Interfaces in programming languages define a contract or a blueprint for defining the structure of objects. They specify properties and methods that implementing classes or objects must adhere to.
+Use Case:
+
+In a TypeScript or other object-oriented programming environment, interfaces are commonly used to define the shape of data structures or objects. For example, an Animal interface might define properties like name, age, and species.
+Difference from DTO:
+
+Interfaces focus solely on defining the structure of objects and do not contain any implementation details or behavior. They serve as a contract for enforcing consistency in data structures across different parts of an application.

@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/interfaces/(.*)": "<rootDir>/../libs/interfaces/src/$1",
+    "@app/interfaces": "<rootDir>/../libs/interfaces/src",
+    "@app/dtos/(.*)": "<rootDir>/../libs/dtos/src/$1",
+    "@app/dtos": "<rootDir>/../libs/dtos/src",
+    "@app/global-reponse/(.*)": "<rootDir>/../libs/global-reponse/src/$1",
+    "@app/global-reponse": "<rootDir>/../libs/global-reponse/src"
+  }
+}
